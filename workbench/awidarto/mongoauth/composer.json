@@ -1,0 +1,23 @@
+{
+    "name": "awidarto/mongoauth",
+    "description": "",
+    "authors": [
+        {
+            "name": "awidarto",
+            "email": "andy.awidarto@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Awidarto\\Mongoauth": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
